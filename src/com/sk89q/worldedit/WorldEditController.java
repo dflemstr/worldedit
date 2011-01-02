@@ -1601,7 +1601,7 @@ public class WorldEditController {
             dir = player.getCardinalDirection();
         }
 
-        if (dirStr.charAt(0) == 'u' || dir == WorldEditPlayer.DIRECTION.WEST) {
+        if (dirStr.charAt(0) == 'w' || dir == WorldEditPlayer.DIRECTION.WEST) {
             zm += 1;
         } else if (dirStr.charAt(0) == 'e' || dir == WorldEditPlayer.DIRECTION.EAST) {
             zm -= 1;
